@@ -5,7 +5,7 @@ fun main(){
     // Byte  - 8  bits - -128 to 127
     // Short - 16 bits - -32768 to 32767
     // Int   - 32 bits - -2147483648 to 2147483647
-    // Long  - 64 bits - -huge to (huge - 1)
+    // Long  - 64 bits - -9,223,372,036,854,775,808 (-(2^63)) to 9,223,372,036,854,775,807 ((2^63) - 1)
 
     // By default, if you declare a variable by assigning an integer (which can be represented in 32 bits), you will create an object and variable of type 'Int'
     var year = 2022
