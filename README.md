@@ -26,3 +26,15 @@
 * [Return from a function](https://github.com/avinash3699/kotlin-basics/blob/main/10.Functions/3.Return_From_Function.kt)
 * [No Return Value from a function](https://github.com/avinash3699/kotlin-basics/blob/main/10.Functions/4.No_Return_Value.kt)
 * [Single Expression Bodies](https://github.com/avinash3699/kotlin-basics/blob/main/10.Functions/5.Single_Expression_Bodies.kt)
+
+## Conditional Statements
+* [Simple if](https://github.com/avinash3699/kotlin-basics/blob/main/11.Conditional%20Statements/1.Simple_If.kt)
+* [if...else](https://github.com/avinash3699/kotlin-basics/blob/main/11.Conditional%20Statements/2.If_else.kt)
+* [if...else if...else](https://github.com/avinash3699/kotlin-basics/blob/main/11.Conditional%20Statements/3.If_elseIf_else.kt)
+* [when](https://github.com/avinash3699/kotlin-basics/blob/main/11.Conditional%20Statements/4.when.kt)
+* [Conditional Statements as Expressions](https://github.com/avinash3699/kotlin-basics/blob/main/11.Conditional%20Statements/5.Conditional_Statements_As_Expressions.kt)
+
+## Loops
+* [while](https://github.com/avinash3699/kotlin-basics/blob/main/12.Loops/1.while.kt)
+* [for](https://github.com/avinash3699/kotlin-basics/blob/main/12.Loops/2.for.kt)
+* [do while](https://github.com/avinash3699/kotlin-basics/blob/main/12.Loops/3.do_while.kt)
