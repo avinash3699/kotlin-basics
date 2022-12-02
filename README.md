@@ -38,3 +38,7 @@
 * [while](https://github.com/avinash3699/kotlin-basics/blob/main/12.Loops/1.while.kt)
 * [for](https://github.com/avinash3699/kotlin-basics/blob/main/12.Loops/2.for.kt)
 * [do while](https://github.com/avinash3699/kotlin-basics/blob/main/12.Loops/3.do_while.kt)
+
+## Read Console Input
+* [Using Java Scanner](https://github.com/avinash3699/kotlin-basics/blob/main/13.Read%20Console%20Input/1.Java_Scanner.kt)
+* [Without using Java Scanner](https://github.com/avinash3699/kotlin-basics/blob/main/13.Read%20Console%20Input/2.Kotlin_Method.kt)
