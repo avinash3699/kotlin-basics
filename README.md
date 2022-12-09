@@ -43,5 +43,5 @@
 * [Using Java Scanner](https://github.com/avinash3699/kotlin-basics/blob/main/13.Read%20Console%20Input/1.Java_Scanner.kt)
 * [Without using Java Scanner](https://github.com/avinash3699/kotlin-basics/blob/main/13.Read%20Console%20Input/2.Kotlin_Method.kt)
 
-## Console Applications
+## Simple Console Applications
 * [Rock Paper Scissors Game](https://github.com/avinash3699/kotlin-basics/blob/main/14.Rock%20Paper%20Scissors%20Game/1.Rock%20Paper%20Scissors.kt)
