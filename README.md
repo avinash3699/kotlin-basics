@@ -45,3 +45,7 @@
 
 ## Simple Console Applications
 * [Rock Paper Scissors Game](https://github.com/avinash3699/kotlin-basics/blob/main/14.Rock%20Paper%20Scissors%20Game/1.Rock%20Paper%20Scissors.kt)
+
+## Interoperability with Java
+* Using Java libraries in Kotlin
+  * [Scanner](https://github.com/avinash3699/kotlin-basics/blob/main/15.Interoperability%20with%20Java/Using%20Java%20libraries%20in%20Kotlin/1.Scanner.kt)
