@@ -49,3 +49,4 @@
 ## Interoperability with Java
 * Using Java libraries in Kotlin
   * [Scanner](https://github.com/avinash3699/kotlin-basics/blob/main/15.Interoperability%20with%20Java/Using%20Java%20libraries%20in%20Kotlin/1.Scanner.kt)
+  * [ArrayList](https://github.com/avinash3699/kotlin-basics/blob/main/15.Interoperability%20with%20Java/Using%20Java%20libraries%20in%20Kotlin/2.ArrayList.kt)
