@@ -51,3 +51,5 @@
   * [Scanner](https://github.com/avinash3699/kotlin-basics/blob/main/15.Interoperability%20with%20Java/Using%20Java%20libraries%20in%20Kotlin/1.Scanner.kt)
   * [ArrayList](https://github.com/avinash3699/kotlin-basics/blob/main/15.Interoperability%20with%20Java/Using%20Java%20libraries%20in%20Kotlin/2.ArrayList.kt)
   * [Calendar](https://github.com/avinash3699/kotlin-basics/blob/main/15.Interoperability%20with%20Java/Using%20Java%20libraries%20in%20Kotlin/3.Calendar.kt)
+* Using Java in Kotlin
+  * [Static Java Methods](https://github.com/avinash3699/kotlin-basics/tree/main/15.Interoperability%20with%20Java/Using%20Java%20in%20Kotlin/Static%20Methods)
