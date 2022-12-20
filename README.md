@@ -54,3 +54,5 @@
 * Using Java in Kotlin
   * [Static Java Methods](https://github.com/avinash3699/kotlin-basics/tree/main/15.Interoperability%20with%20Java/Using%20Java%20in%20Kotlin/Static%20Methods)
   * [Non-static Java methods](https://github.com/avinash3699/kotlin-basics/tree/main/15.Interoperability%20with%20Java/Using%20Java%20in%20Kotlin/Non-static%20methods)
+* Using Kotlin in Java
+  * [Kotlin Functions](https://github.com/avinash3699/kotlin-basics/tree/main/15.Interoperability%20with%20Java/Using%20Kotlin%20in%20Java)
