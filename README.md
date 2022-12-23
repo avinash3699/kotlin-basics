@@ -26,6 +26,8 @@
 * [Return from a function](https://github.com/avinash3699/kotlin-basics/blob/main/10.Functions/3.Return_From_Function.kt)
 * [No Return Value from a function](https://github.com/avinash3699/kotlin-basics/blob/main/10.Functions/4.No_Return_Value.kt)
 * [Single Expression Bodies](https://github.com/avinash3699/kotlin-basics/blob/main/10.Functions/5.Single_Expression_Bodies.kt)
+* [Default Parameters](https://github.com/avinash3699/kotlin-basics/blob/main/10.Functions/6.%20Default%20Parameters.kt)
+* [Function Overloading](https://github.com/avinash3699/kotlin-basics/blob/main/10.Functions/7.%20Function%20Overloading.kt)
 
 ## Conditional Statements
 * [Simple if](https://github.com/avinash3699/kotlin-basics/blob/main/11.Conditional%20Statements/1.Simple_If.kt)
