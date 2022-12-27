@@ -62,3 +62,8 @@
 
 ## Classes and Objects
 * [Basics](https://github.com/avinash3699/kotlin-basics/blob/main/16.Classes%20and%20Objects/01.Basics.kt)
+* [init block](https://github.com/avinash3699/kotlin-basics/blob/main/16.Classes%20and%20Objects/02.init_block.kt)
+* [lateinit](https://github.com/avinash3699/kotlin-basics/blob/main/16.Classes%20and%20Objects/03.lateinit.kt)
+* [Getters and Setters - 1](https://github.com/avinash3699/kotlin-basics/blob/main/16.Classes%20and%20Objects/04.getters_and_setters.kt)
+* [Getters and Setters - 2](https://github.com/avinash3699/kotlin-basics/blob/main/16.Classes%20and%20Objects/05.getters_and_setters-2.kt)
+* [Secondary Constructor](https://github.com/avinash3699/kotlin-basics/blob/main/16.Classes%20and%20Objects/06.Secondary%20Constructor.kt)
