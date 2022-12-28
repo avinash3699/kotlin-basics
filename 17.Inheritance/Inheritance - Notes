@@ -1,0 +1,63 @@
+The IS-A test works anywhere in the inheritance tree
+    * If your inheritance tree is well-designed, the IS-A test should make sense when you ask any subclass if it IS-A any of its supertypes
+    * If class B is a subclass of class A, class B IS-A class A.
+      This is true anywhere in the inheritance tree. If class C is a subclass of B, class C passes the IS-A test for both B and A.
+
+Use HAS-A to test for other relationships
+    * If the IS-A test fails for two classes, they may still be related in some way
+    * Don’t use inheritance if the IS-A test fails, just so that you can reuse code from another class. Take advantage of using a HAS-A relationship
+
+Declare the superclass and its properties and functions as 'open'
+    Before a class can be used as a superclass, you have to explicitly tell the compiler that this is allowed.
+    You do this by prefixing the name of the class and any properties or functions you want to override—with the keyword 'open'
+    This tells the compiler that you’ve designed the class to be a superclass, and that you’re happy for the properties and functions you’ve declared as open to be overridden
+
+How a subclass inherits from a superclass?
+    To make a class inherit from another, you add a colon (:) to the class header followed by the name of the superclass.
+    This makes the class a subclass, and gives it all the properties and functions of the class it inherits from.
+
+How to override properties?
+    You override a property that’s been inherited from a superclass by adding the property to the subclass, and prefixing it with the override keyword.
+
+How to override functions
+    You override a function in a similar way to how you override a property: by adding the function to the subclass, prefixed with override.
+
+If you define a property in the superclass using 'val', you must override it in the subclass if you want to assign a different value to it.
+
+If a superclass property has been defined using var, you don’t need to override it in order to assign a new value to it, as var variables can be reused for other values.
+
+Overriding properties lets you do more than assign default values
+    * You can override a property’s getter and setter
+    * You can override a val property in the superclass with a var property in the subclass
+    * You can override a property’s type with one of the superclass version’s subtypes
+
+The rules for overriding functions
+    * The function parameters in the subclass must match those in the superclass
+    * The function return types must be compatible
+
+An overridden function or property stays 'open'
+    The function or property stays open in each of its subclasses, even if it’s overridden, so you don’t have to declare it as open further down the tree.
+
+Stop a function or property from being overridden
+    If you want to stop a function or property from being overridden further down the class hierarchy, you can prefix it with 'final'
+
+Which function is called?
+    * When you call a function on an object reference, you’re calling the most specific version of the function for that object type: the one that’s lowest on the inheritance tree
+    * The system first looks for the function in the object type class. If the system finds the function in this class, it executes the function.
+      If the function isn’t defined in the that class, however, the system walks up the inheritance tree to the immediate superclass class.
+      If the function is defined here, the system executes it, and if it’s not, the system continues up the tree.
+      The system continues to walk up the class hierarchy until it finds a match for the function
+
+Any place where you can use a superclass, you can use one of its subclasses instead
+    * When you define a supertype for a group of classes, you can use any subclass in place of the superclass it inherits from
+      Example:
+               val sportsPerson: SportsPerson = Cricketer()
+
+    * When you call a function on the variable, it’s the object’s version that responds
+        If you assign an object to a variable, you can use the variable to access the object’s functions. This is still the case if the variable is a supertype of the object
+        Example:
+               sportsPerson.play()
+               This calls the play function that is defined in the Cricketer() class
+
+Can a subclass have more than one direct superclass?
+    No. Multiple inheritance isn’t allowed in Kotlin, so each subclass can have only one direct superclass
