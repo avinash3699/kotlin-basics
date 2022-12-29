@@ -1,0 +1,58 @@
+Declare a class as abstract to stop it from being instantiated
+    * If you want to prevent a class from being instantiated, you can mark the class as abstract by prefixing it with the abstract keyword.
+    * Being an abstract class means that nobody can create any objects of that type, even if you’ve defined a constructor for it.
+      You can still use that abstract class as a declared variable type, but you don’t have to worry about somebody creating objects of that type—the compiler stops it from happening.
+
+If a superclass is marked as abstract, you don’t need to declare that it’s open.
+
+Abstract or concrete?
+    * A class that’s not abstract is called 'concrete'.
+    * Whether a class should be abstract or concrete depends on the context of the application.
+
+An abstract class can have abstract properties and functions
+    * In an abstract class, you can choose to mark properties and functions as abstract.
+      This is useful if the class has behaviors that don’t make sense unless they’re implemented by a more specific subclass,
+      and you can’t think of a generic implementation that might be useful for subclasses to inherit.
+
+    * An abstract class can contain abstract and non-abstract properties and functions. It’s possible for an abstract class to have no abstract members.
+
+Abstract properties and functions don’t need to be marked as open.
+
+Can we initialize abstract properties?
+    * No!
+    * If you try to initialize an abstract property, or define a custom getter or setter for it, the compiler will refuse to compile your code.
+      This is because by marking a property as abstract, you’ve decided that there’s no useful initial value it can have, and no useful implementation for a custom getter or setter.
+
+Can abstract functions have function bodies?
+    * No!
+    * This is because when you mark a function as abstract, you’re telling the compiler that there’s no useful code you can write for the function body.
+      If you try to add a body to an abstract function, the compiler will get upset and refuse to compile your code.
+
+If you mark a property or function as abstract, you must mark the class as abstract too!
+    If you put even one abstract property or function in a class, you have to mark the class as abstract or your code won’t compile.
+
+Abstract properties and functions define a common protocol so that you can use polymorphism.
+    * Inheritable function implementations (functions with actual bodies) are useful to put in a superclass when it makes sense.
+      And in an abstract class, it often doesn’t make sense because you may not be able to come up with any generic code that the subclasses would find useful.
+
+    * Abstract functions are useful because even though they don’t contain any actual function code,
+      they define the protocol for a group of subclasses which you can use for polymorphism.
+
+      Polymorphism means that when you define a supertype for a group of classes, you can use any subclass in place of the superclass it inherits from.
+      It gives you the ability to use a superclass type as a variable type, function argument, return type or array type
+
+How to implement an abstract class?
+    * You declare that a class inherits from an abstract superclass in the same way that you say that a class inherits from a normal superclass:
+      by adding a 'colon' to the class header followed by the name of the abstract class.
+
+    * You implement abstract properties and functions by overriding each one and providing an implementation.
+      This means that you need to initialize any abstract properties, and you need to provide a body for any abstract functions.
+
+    * When you implement abstract properties and functions, you must follow the same rules for overriding that you use for overriding normal properties and functions.
+
+You MUST implement all abstract properties and functions
+    * The first concrete class in the inheritance tree below the abstract superclass must implement all abstract properties and functions.
+
+    * With abstract subclasses, you have a choice: you can either implement the abstract properties and functions, or pass the buck to its subclasses.
+
+When a subclass inherits from an abstract superclass, the subclass can still define its own functions and properties.
