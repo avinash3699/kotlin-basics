@@ -1,0 +1,48 @@
+Why Interface?
+    * Independent classes can have common behavior.
+    * When you have independent classes that exhibit common behavior, you can model this behavior using an interface.
+
+What’s an Interface?
+    * An interface lets you define common behavior OUTSIDE a superclass hierarchy.
+    * Interfaces are used to define a protocol for common behavior so that you can benefit from polymorphism without having to rely on a strict inheritance structure.
+
+    * Interfaces are similar to abstract classes in that they can’t be instantiated, and they can define abstract or concrete functions and properties,
+      but there’s one key difference: a class can implement multiple interfaces, but can only inherit from a single direct superclass.
+      So using interfaces can provide the same benefits as using abstract classes, but with more flexibility.
+
+Interface functions can be abstract or concrete
+    * You add functions to interfaces by including them in the interface body (inside the curly braces {})
+
+    * When you add an abstract function to an interface, there’s no need to prefix the function name with the abstract keyword,
+      as you would if you were adding an abstract function to an abstract class.
+      With an interface, the compiler automatically infers that a function with no body must be abstract, so you don’t have to mark it as such.
+
+    * You can also add concrete functions to interfaces by providing the function with a body.
+
+How to define interface properties?
+    * You add a property to an interface by including it in the interface body.
+      This is the only way in which you can define an interface property, as unlike abstract classes, interfaces can’t have constructors
+
+    * Unlike properties in abstract classes, properties that are defined in an interface can’t store state, and therefore can’t be initialized.
+      You can, however, return a value for a property by defining a custom getter using code like this
+
+          interface Bootable{
+              var bootLocation: String
+                  get() = "C:\Boot"
+          }
+
+    * Another restriction is that interface properties don’t have backing fields. Backing field provides a reference to the underlying value of a property
+
+Declare that a class implements an interface
+    * You mark that a class implements an interface in a similar way to how you mark that a class inherits from a superclass: by adding a 'colon' to the class header followed by the name of the interface.
+    * Unlike when you declare that a class inherits from a superclass, you don’t put parentheses after the interface name.
+      This is because the parentheses are only needed in order to call the superclass constructor, and interfaces don’t have constructors.
+
+Override its properties and functions
+    * Declaring that a class implements an interface gives the class all the properties and functions that are in that interface.
+      You can override any of these properties and functions, and you do this in exactly the same way that you would override properties and functions inherited from a superclass.
+
+    * Just like abstract superclasses, any concrete classes that implement the interface must have a concrete implementation for any abstract properties and functions.
+    * If the class that implements the interface is abstract, however, the class can either implement the properties and functions itself, or pass the buck to its subclasses.
+
+    * Note that a class that implements an interface can still define its own properties and functions.

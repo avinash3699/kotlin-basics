@@ -1,0 +1,9 @@
+How do you know whether to make a class, a subclass, an abstract class, or an interface?
+
+    * Make a class with no superclass when your new class doesn’t pass the IS-A test for any other type.
+
+    * Make a subclass that inherits from a superclass when you need to make a more specific version of a class and need to override or add new behaviors.
+
+    * Make an abstract class when you want to define a template for a group of subclasses. Make the class abstract when you want to guarantee that nobody can make objects of that type.
+
+    * Make an interface when you want to define common behavior, or a role that other classes can play, regardless of where these classes are in the inheritance tree.

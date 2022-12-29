@@ -1,0 +1,17 @@
+How to implement multiple interfaces
+    * You declare that a class (or interface) implements multiple interfaces by adding each one to the class header, separating each one with a comma.
+      Suppose, for example, that you have two interfaces named A and B. You would declare that a class named X implements both interfaces using the code.
+
+        class X: A, B{
+        }
+
+    * A class can also inherit from a superclass in addition to implementing one or more interfaces.
+      Here’s how, for example, you specify that class Y implements interface A, and inherits from class C.
+
+        class Y: C(), A{
+        }
+
+    * If a class inherits multiple implementations of the same function or property, the class must provide its own implementation,
+      or specify which version of the function or property it should use.
+      If, for example, the A and B interfaces both include a concrete function named myFunction, and the X class implements both interfaces,
+      the X class must provide an implementation of myFunction so that the compiler knows how to handle a call to this function
