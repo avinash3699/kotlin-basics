@@ -67,3 +67,4 @@
 * [Getters and Setters - 1](https://github.com/avinash3699/kotlin-basics/blob/main/16.Classes%20and%20Objects/04.getters_and_setters.kt)
 * [Getters and Setters - 2](https://github.com/avinash3699/kotlin-basics/blob/main/16.Classes%20and%20Objects/05.getters_and_setters-2.kt)
 * [Secondary Constructor](https://github.com/avinash3699/kotlin-basics/blob/main/16.Classes%20and%20Objects/06.Secondary%20Constructor.kt)
+* [Extension Functions](https://github.com/avinash3699/kotlin-basics/blob/main/16.Classes%20and%20Objects/07.Extension%20Functions.kt)
