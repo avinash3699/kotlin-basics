@@ -70,5 +70,10 @@
 * [Extension Functions](https://github.com/avinash3699/kotlin-basics/blob/main/16.Classes%20and%20Objects/07.Extension%20Functions.kt)
 
 ## Inheritance
-* [Basic Inheritance](https://github.com/avinash3699/kotlin-basics/blob/main/17.Inheritance/01.Basics.kt)
 * [Notes](https://github.com/avinash3699/kotlin-basics/blob/main/17.Inheritance/Inheritance%20-%20Notes)
+* [Code](https://github.com/avinash3699/kotlin-basics/blob/main/17.Inheritance/01.Basics.kt)
+
+
+## Abstract Class
+* [Notes](https://github.com/avinash3699/kotlin-basics/blob/main/18.Abstract%20Class/Abstract%20Class%20-%20Notes)
+* [Code](https://github.com/avinash3699/kotlin-basics/blob/main/18.Abstract%20Class/Abstract%20Class.kt)
