@@ -73,7 +73,11 @@
 * [Notes](https://github.com/avinash3699/kotlin-basics/blob/main/17.Inheritance/Inheritance%20-%20Notes)
 * [Code](https://github.com/avinash3699/kotlin-basics/blob/main/17.Inheritance/01.Basics.kt)
 
-
 ## Abstract Class
 * [Notes](https://github.com/avinash3699/kotlin-basics/blob/main/18.Abstract%20Class/Abstract%20Class%20-%20Notes)
 * [Code](https://github.com/avinash3699/kotlin-basics/blob/main/18.Abstract%20Class/Abstract%20Class.kt)
+
+## Object Keyword
+* [Singleton Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/1.Singleton%20Class.kt)
+* [Inner Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/3.Inner%20Class%20-%20companion%20object.kt)
+* [Anonymous Inner Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/2.Anonymous%20Inner%20Class.kt)
