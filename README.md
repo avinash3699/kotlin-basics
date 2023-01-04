@@ -77,6 +77,12 @@
 * [Notes](https://github.com/avinash3699/kotlin-basics/blob/main/18.Abstract%20Class/Abstract%20Class%20-%20Notes)
 * [Code](https://github.com/avinash3699/kotlin-basics/blob/main/18.Abstract%20Class/Abstract%20Class.kt)
 
+## Interface
+* [Notes](https://github.com/avinash3699/kotlin-basics/tree/main/19.Interface)
+* [Basic Interface](https://github.com/avinash3699/kotlin-basics/blob/main/19.Interface/Interface.kt)
+* Multiple Inheritance
+  * [Implementing two Interfaces](https://github.com/avinash3699/kotlin-basics/blob/main/19.Interface/Multiple%20Inheritance%201.kt)
+  * [Implementing a Interface and extending a Class](https://github.com/avinash3699/kotlin-basics/blob/main/19.Interface/Multiple%20Inheritance%202.kt)
 ## Object Keyword
 * [Singleton Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/1.Singleton%20Class.kt)
 * [Inner Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/3.Inner%20Class%20-%20companion%20object.kt)
