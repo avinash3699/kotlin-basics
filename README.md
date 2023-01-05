@@ -83,7 +83,13 @@
 * Multiple Inheritance
   * [Implementing two Interfaces](https://github.com/avinash3699/kotlin-basics/blob/main/19.Interface/Multiple%20Inheritance%201.kt)
   * [Implementing a Interface and extending a Class](https://github.com/avinash3699/kotlin-basics/blob/main/19.Interface/Multiple%20Inheritance%202.kt)
+  
 ## Object Keyword
 * [Singleton Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/1.Singleton%20Class.kt)
 * [Inner Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/3.Inner%20Class%20-%20companion%20object.kt)
 * [Anonymous Inner Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/2.Anonymous%20Inner%20Class.kt)
+
+## 'is' and 'as' Operator
+* [Type Checking (is operator)](https://github.com/avinash3699/kotlin-basics/blob/main/21.is%20operator/1.%20is%20operator.kt)
+* [Smart Casting](https://github.com/avinash3699/kotlin-basics/blob/main/21.is%20operator/2.%20smart%20casting.kt)
+* [Type Casting (as operator)](https://github.com/avinash3699/kotlin-basics/blob/main/21.is%20operator/3.%20explicit%20casting.kt)
