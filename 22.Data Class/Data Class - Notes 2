@@ -1,0 +1,13 @@
+Initializing many properties can lead to cumbersome code
+    * If you have many properties defined in constructor, your code can quickly become unwieldy.
+      Each time you create a new object, you need to specify a value for each of its properties.
+    * This may not seem too bad if your data class has a small number of properties,
+      but imagine if you needed to specify the values of 10, 20, or even 50 properties each time you needed to create a new object.
+      Your code would quickly become much harder to manage.
+
+Default parameter values to the rescue!
+    * If your constructor defines many properties, you can simplify calls to it by assigning a default value or expression to one or more property definitions in the constructor.
+
+How to use a constructor’s default values
+    1. Passing values in order of declaration
+    2. Using named arguments

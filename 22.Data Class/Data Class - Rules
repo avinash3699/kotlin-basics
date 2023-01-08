@@ -1,0 +1,5 @@
+Rules for data classes
+    * There must be a primary constructor.
+    * The primary constructor must define one or more parameters.
+    * Each parameter must be marked as val or var.
+    * Data classes must not be open or abstract

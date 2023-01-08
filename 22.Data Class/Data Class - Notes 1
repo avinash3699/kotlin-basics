@@ -1,0 +1,59 @@
+Why Data Classes?
+    Most applications include classes whose main purpose is to store data, so to make your coding life easier, the Kotlin developers came up with the concept of a data class.
+    Here, you’ll learn how data classes enable you to write code that’s cleaner and more concise.
+
+What are Data Classes?
+    * A data class lets you create data objects.
+    * A data class is one that lets you create objects whose main purpose is to store data.
+
+How to define a Data Class?
+    * You define a data class by prefixing a normal class definition with the 'data' keyword.
+
+How to create objects from a data class?
+    * You create objects from a data class in the same way that you create objects from a normal class: by calling its constructor.
+
+Data classes override their inherited behavior
+    * A data class needs its objects to play well with data, so it automatically provides the following implementations for the
+      equals, hashCode and toString functions it inherits from the Any superclass:
+
+    * The equals function compares property values
+        * When you define a data class, its equals function (and therefore the == operator) continues to return true if it’s used to test the same object.
+          But it also returns true if the objects have identical values for the properties defined in its constructor.
+        * Data objects are considered equal if their properties hold the same values.
+
+    * Equal objects return the same hashCode value
+        * If two data objects are considered equal (in other words, they have identical property values), the hashCode function returns the same value for each object
+
+    * toString returns the value of each property
+        * Finally, the toString function no longer returns the name of the class followed by a number.
+          Instead, it returns a useful String that contains the value of each property that’s defined in the data class constructor
+
+Copy data objects using the copy function
+    * If you want to create a new copy of a data object, altering some of its properties but leaving the rest intact, you can do so using the copy function.
+      To use, you call the function on the object you want to copy, passing in the names of any properties you wish to alter along with their new values.
+    * The copy function lets you copy a data object, altering some of its properties. The original object remains intact.
+
+Data classes define componentN functions
+    * When you define a data class, the compiler automatically adds a set of functions to the class that you can use as an alternate way of accessing its object’s property values.
+      These are known as componentN functions, where N represents the number of the property whose value you wish to retrieve (in order of declaration).
+    * If you wanted to retrieve the value of the object’s first property, you could do this by calling the object’s component1() function.
+
+    Why componentN functions?
+        * It lets you de-structure data objects.
+        * Having generic componentN functions is useful as it provides a quick way of splitting a data object into its component property values, or destructuring it.
+        * Destructuring a data object splits it into its component parts.
+
+Check whether two variables refer to the same underlying object
+    * The === operator always lets you check whether two variables refer to the same underlying object.
+    * Use the === operator instead of ==.
+      This is because the === operator always evaluates to true if (and only if) the two variables hold a reference to the same underlying object.
+
+    * Unlike the == operator, the === operator doesn’t rely on the equals function for its behavior. The === operator always behaves in this way irrespective of the type of class.
+
+== vs ===
+    * == checks for object equivalence.
+      === checks for object identity.
+
+Can a Data Class be 'abstract' or 'open'?
+    * No. Data classes can’t be declared abstract or open, so you can’t use a data class as a superclass.
+      Data classes can implement interfaces, however, and from Kotlin 1.1, they can also inherit from other classes.
