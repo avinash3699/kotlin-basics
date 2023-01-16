@@ -93,3 +93,6 @@
 * [Type Checking (is operator)](https://github.com/avinash3699/kotlin-basics/blob/main/21.is%20operator/1.%20is%20operator.kt)
 * [Smart Casting](https://github.com/avinash3699/kotlin-basics/blob/main/21.is%20operator/2.%20smart%20casting.kt)
 * [Type Casting (as operator)](https://github.com/avinash3699/kotlin-basics/blob/main/21.is%20operator/3.%20explicit%20casting.kt)
+
+## Exception Handling
+* [try..catch blocks](https://github.com/avinash3699/kotlin-basics/blob/main/24.Exception%20Handling/1.%20try..catch%20blocks.kt)
