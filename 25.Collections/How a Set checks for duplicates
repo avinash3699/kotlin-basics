@@ -1,0 +1,22 @@
+How a Set checks for duplicates
+
+    1. The Set gets the object’s hash code, and compares it with the hash codes of the objects already in the Set.
+        * A Set uses hash codes to store its elements in a way that makes it much faster to access.
+          It uses the hash code as a kind of label on a “bucket” where it stores elements, so all objects with a hash code of, say, 742, are stored in the bucket labeled 742.
+
+        * If the Set has no matching hash codes for the new value, the Set assumes that it’s not a duplicate, and adds the new value.
+          If, however, the Set has matching hash codes, it needs to perform extra tests, and moves on to step 2.
+
+    2. The Set uses the === operator to compare the new value against any objects it contains with the same hash code.
+        * The === operator is used to check whether two references refer to the same object.
+
+        * So if the === operator returns true for any object with the same hash code, the Set knows that the new value is a duplicate, so it rejects it.
+          If the === operator returns false, however, the Set moves on to step 3.
+
+    3. The Set uses the == operator to compare the new value against any objects it contains with matching hash codes.
+        * The == operator calls the value’s equals function.
+
+        * If this returns true, the Set treats the new value as a duplicate, and rejects it.
+          If the == operator returns false, however, the Set assumes that the new value is not a duplicate, and adds it.
+
+    So there are two situations in which a Set views a value as a duplicate: if it’s the same object, or equal to a value it already contains.
