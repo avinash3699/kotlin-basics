@@ -1,0 +1,7 @@
+Kotlin has a bunch of built-in higher-order functions
+
+    * Kotlin comes with a bunch of built-in higher-order functions that take a lambda parameter, many of which deal with collections.
+      They enable you to filter a collection based on some criteria, for example, or group the items in a collection by a particular property value.
+
+    * Each higher-order function has a generalized implementation, and its specific behavior is defined by the lambda that you pass to it.
+      So if you want to filter a collection using the built-in filter function, you can specify the criteria that should be used by passing the function a lambda that defines it.
