@@ -98,4 +98,5 @@
 * [try..catch blocks](https://github.com/avinash3699/kotlin-basics/blob/main/24.Exception%20Handling/1.%20try..catch%20blocks.kt)
 
 ## Annotation
+* [Guide to JVM Platform Annotations in Kotlin](https://www.baeldung.com/kotlin/jvm-annotations)
 * [@JvmOverloads](https://medium.com/android-news/demystifying-the-jvmoverloads-in-kotlin-10dd098e6f72)
