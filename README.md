@@ -97,6 +97,9 @@
 ## Exception Handling
 * [try..catch blocks](https://github.com/avinash3699/kotlin-basics/blob/main/24.Exception%20Handling/1.%20try..catch%20blocks.kt)
 
+## Sealed Class
+* [Unlocking the Power of Sealed Classes in Kotlin: Design Patterns and Better Code Organization](https://medium.com/@summitkumar/unlocking-the-power-of-sealed-classes-in-kotlin-design-patterns-and-better-code-organization-5627d73a4903)
+
 ## Annotation
 * [Guide to JVM Platform Annotations in Kotlin](https://www.baeldung.com/kotlin/jvm-annotations)
 * [@JvmOverloads](https://medium.com/android-news/demystifying-the-jvmoverloads-in-kotlin-10dd098e6f72)
