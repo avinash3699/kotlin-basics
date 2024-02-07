@@ -83,6 +83,9 @@
 * Multiple Inheritance
   * [Implementing two Interfaces](https://github.com/avinash3699/kotlin-basics/blob/main/19.Interface/Multiple%20Inheritance%201.kt)
   * [Implementing a Interface and extending a Class](https://github.com/avinash3699/kotlin-basics/blob/main/19.Interface/Multiple%20Inheritance%202.kt)
+ 
+## Scope Functions
+* [Example of when should we use run, let, apply, also and with on Kotlin](https://stackoverflow.com/questions/45977011/example-of-when-should-we-use-run-let-apply-also-and-with-on-kotlin)
   
 ## Object Keyword
 * [Singleton Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/1.Singleton%20Class.kt)
