@@ -90,6 +90,7 @@
 ## Infix Functions
 * [Infix Functions in Kotlin - baeldung](https://www.baeldung.com/kotlin/infix-functions)
 * [Infix in Kotlin](https://proandroiddev.com/using-kotlins-infix-notation-to-make-syntax-beautiful-6eda3efe70d1)
+* [Infix Functions in Kotlin - Bringing our code closer to natural language](https://medium.com/makingtuenti/infix-functions-in-kotlin-2db3d3142dd2)
   
 ## Object Keyword
 * [Singleton Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/1.Singleton%20Class.kt)
