@@ -86,6 +86,9 @@
  
 ## Scope Functions
 * [Example of when should we use run, let, apply, also and with on Kotlin](https://stackoverflow.com/questions/45977011/example-of-when-should-we-use-run-let-apply-also-and-with-on-kotlin)
+
+## Infix Functions
+* [Infix Functions in Kotlin - baeldung](https://www.baeldung.com/kotlin/infix-functions)
   
 ## Object Keyword
 * [Singleton Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/1.Singleton%20Class.kt)
