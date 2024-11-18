@@ -109,6 +109,7 @@
 * [Unlocking the Power of Sealed Classes in Kotlin: Design Patterns and Better Code Organization](https://medium.com/@summitkumar/unlocking-the-power-of-sealed-classes-in-kotlin-design-patterns-and-better-code-organization-5627d73a4903)
 
 ## Value Class
+* [Simplifying Kotlin: A Comprehensive Guide to Kotlin Value Class](https://www.dhiwise.com/post/simplifying-kotlin-a-comprehensive-guide-to-kotlin-value-class)
 * [What is Inline(Value) Class in Kotlin](https://oguzhanaslann.medium.com/what-is-inline-value-class-in-kotlin-c3a1096beaec)
 
 ## Annotation
