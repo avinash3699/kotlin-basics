@@ -114,4 +114,5 @@
 
 ## Annotation
 * [Guide to JVM Platform Annotations in Kotlin](https://www.baeldung.com/kotlin/jvm-annotations)
+* [JvmInline (Inline) Class in Kotlin — What It Can and Can Not](https://proandroiddev.com/jvminline-inline-class-in-kotlin-what-it-can-and-can-not-6f6cd75efe5f)
 * [@JvmOverloads](https://medium.com/android-news/demystifying-the-jvmoverloads-in-kotlin-10dd098e6f72)
