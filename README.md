@@ -91,7 +91,10 @@
 * [Infix Functions in Kotlin - baeldung](https://www.baeldung.com/kotlin/infix-functions)
 * [Infix in Kotlin](https://proandroiddev.com/using-kotlins-infix-notation-to-make-syntax-beautiful-6eda3efe70d1)
 * [Infix Functions in Kotlin - Bringing our code closer to natural language](https://medium.com/makingtuenti/infix-functions-in-kotlin-2db3d3142dd2)
-  
+
+## Inline Functions
+* [FULL Guide to Kotlin's Inline Keyword (inline, crossinline & noinline) - Philipp Lackner](https://www.youtube.com/watch?v=Itb5fu4UVt4)
+
 ## Object Keyword
 * [Singleton Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/1.Singleton%20Class.kt)
 * [Inner Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/3.Inner%20Class%20-%20companion%20object.kt)
