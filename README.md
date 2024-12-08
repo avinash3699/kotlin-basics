@@ -94,6 +94,7 @@
 
 ## Inline Functions
 * [FULL Guide to Kotlin's Inline Keyword (inline, crossinline & noinline) - Philipp Lackner](https://www.youtube.com/watch?v=Itb5fu4UVt4)
+* [Inline Functions: inline, crossinline, and noinline](https://www.youtube.com/watch?v=T9sAlxqYFYc)
 
 ## Object Keyword
 * [Singleton Class](https://github.com/avinash3699/kotlin-basics/blob/main/20.object%20keyword/1.Singleton%20Class.kt)
